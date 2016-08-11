@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_surrounding_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_surrounding_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="南山一棵树"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="位置："/>
+            <TextView
+                android:id="@+id/tv_surrounding_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="半山腰"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="简介："/>
+            <TextView
+                android:id="@+id/tv_surrounding_Introduction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="可以完美观看重庆夜景"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

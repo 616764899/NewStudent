@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp">
+        <TextView
+            android:id="@+id/tv_route_airport_to_school"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/route_airport_to_school"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack_title" />
+        <TextView
+            android:id="@+id/tv_route_airport_to_school1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/route_airport_to_school1"
+            android:layout_below="@id/tv_route_airport_to_school"
+            android:layout_marginTop="15dp"
+            android:textSize="12sp"
+            android:textColor="@color/colorGrey_content"
+            android:lineSpacingExtra="8dp"/>
+        <TextView
+            android:id="@+id/route_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGrey_line"
+            android:layout_below="@id/tv_route_airport_to_school1"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:id="@+id/tv_route_train_station_to_school"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/route_train_station_to_school"
+            android:layout_below="@id/route_line"
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack_title" />
+        <TextView
+            android:id="@+id/tv_route_train_station_to_school1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/route_train_station_to_school1"
+            android:layout_below="@id/tv_route_train_station_to_school"
+            android:layout_marginTop="12dp"
+            android:textSize="14sp"
+            android:textColor="@color/colorGrey_content"
+            android:lineSpacingExtra="8dp"/>
+
+        <TextView
+            android:id="@+id/route_line1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGrey_line"
+            android:layout_below="@id/tv_route_train_station_to_school1"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:id="@+id/tv_route_bus_station_to_school"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/route_bus_station_to_school"
+            android:layout_below="@id/route_line1"
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack_title" />
+        <TextView
+            android:id="@+id/tv_route_bus_station_to_school1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/route_bus_station_to_school1"
+            android:layout_below="@id/tv_route_bus_station_to_school"
+            android:layout_marginTop="12dp"
+            android:textSize="14sp"
+            android:textColor="@color/colorGrey_content"
+            android:lineSpacingExtra="8dp"/>
+    </RelativeLayout>
+
+</ScrollView>

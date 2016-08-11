@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="titleTextSize" format="dimension"/>
+    <attr name="titleStyle" format="integer"/>
+    <attr name="titleRadius" format="integer"/>
+    <attr name="titleNumber" format="integer"/>
+    <!--<attr name="titlestart1" format="integer"/>
+    <attr name="titleend1" format="integer"/>
+    <attr name="titlestartx2" format="integer"/>
+    <attr name="titleend2" format="integer"/>
+    <attr name="titlestartx3" format="integer"/>
+    <attr name="titleend3" format="integer"/>
+    <attr name="titlestartx4" format="integer"/>
+    <attr name="titleend4" format="integer"/>-->
+
+
+    <declare-styleable name="PieView" >
+        <attr name="titleTextSize"/>
+        <attr name="titleStyle"/>
+        <attr name="titleRadius"/>
+        <attr name="titleNumber"/>
+        <!--<attr name="titlestart1"/>
+        <attr name="titleend1"/>
+        <attr name="titlestart2"/>
+        <attr name="titleend2"/>
+        <attr name="titlestart3"/>
+        <attr name="titleend3"/>
+        <attr name="titlestart4"/>
+        <attr name="titleend4"/>-->
+    </declare-styleable>
+</resources>

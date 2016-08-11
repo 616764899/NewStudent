@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+<!--
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_needknow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+        <TextView
+            android:id="@+id/tv_needknow_needknow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/needknow_needknow"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack_title" />
+
+        <TextView
+            android:id="@+id/tv_needknow_needknow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/needknow_needknow1"
+            android:layout_below="@id/tv_needknow_needknow"
+            android:layout_marginTop="12dp"
+            android:textSize="14sp"
+            android:textColor="@color/colorGrey_content"
+            android:lineSpacingExtra="8dp"/>
+
+        <TextView
+            android:id="@+id/needknow_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGrey_line"
+            android:layout_below="@id/tv_needknow_needknow1"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:id="@+id/tv_needknow_security"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/needknow_security"
+            android:layout_below="@id/needknow_line"
+            android:layout_marginTop="14dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack_title"/>
+
+        <TextView
+            android:id="@+id/tv_needknow_security1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/needknow_security1"
+            android:layout_below="@id/tv_needknow_security"
+            android:layout_marginTop="12dp"
+            android:textSize="14dp"
+            android:textColor="@color/colorGrey_content"
+            android:lineSpacingExtra="8dp"/>
+
+        <TextView
+            android:id="@+id/needknow_line1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGrey_line"
+            android:layout_below="@id/tv_needknow_security1"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:id="@+id/tv_needknow_scholarship"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/needknow_scholarship"
+            android:layout_below="@id/needknow_line1"
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack_title"/>
+
+        <TextView
+            android:id="@+id/tv_needknow_scholarship1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/needknow_scholarship1"
+            android:layout_below="@id/tv_needknow_scholarship"
+            android:layout_marginTop="12dp"
+            android:textSize="14sp"
+            android:textColor="@color/colorGrey_content"
+            android:lineSpacingExtra="8dp"/>
+
+        <TextView
+            android:id="@+id/needknow_line2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGrey_line"
+            android:layout_below="@id/tv_needknow_scholarship1"
+            android:layout_marginTop="15dp" />
+
+
+        <TextView
+            android:id="@+id/tv_needknow_handbook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/needknow_handbook"
+            android:layout_below="@id/needknow_line2"
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack_title"/>
+
+        <TextView
+            android:id="@+id/tv_needknow_handbook1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/needknow_handbook1"
+            android:layout_below="@id/tv_needknow_handbook"
+            android:layout_marginTop="12dp"
+            android:textSize="14sp"
+            android:textColor="@color/colorGrey_content"
+            android:lineSpacingExtra="8dp"/>
+    </RelativeLayout>
+
+</ScrollView>

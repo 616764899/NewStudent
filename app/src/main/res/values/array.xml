@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="college">
+        <item>请选择学院</item>
+        <item>光电工程学院/重庆国际半导体学院</item>
+        <item>经济管理学院</item>
+        <item>国际学院</item>
+        <item>法学院</item>
+        <item>传媒艺术学院</item>
+        <item>通信与信息工程学院</item>
+        <item>计算机科学与技术学院</item>
+        <item>软件工程学院</item>
+        <item>体育学院</item>
+        <item>生物信息学院</item>
+        <item>理学院</item>
+        <item>先进制造工程学院</item>
+        <item>外国语学院</item>
+        <item>自动化学院</item>
+    </string-array>
+    <string-array name="professional">
+        <item>请选择专业</item>
+    </string-array>
+    <string-array name="professional_0">
+        <item>请选择专业</item>
+        <item>电子工程类</item>
+        <item>集成电路工程类</item>
+    </string-array>
+    <string-array name="professional_1">
+        <item>请选择专业</item>
+        <item>电子商务类</item>
+        <item>工程管理</item>
+        <item>工商管理类</item>
+        <item>经济学</item>
+        <item>信息管理与信息系统</item>
+    </string-array>
+    <string-array name="professional_2">
+        <item>请选择专业</item>
+        <item>电子信息工程（中外合作办学）</item>
+        <item>软件工程（中外合作办学）</item>
+    </string-array>
+    <string-array name="professional_3">
+        <item>请选择专业</item>
+        <item>法学类（含法学、知识产权两个专业）</item>
+    </string-array>
+    <string-array name="professional_4">
+        <item>请选择专业</item>
+        <item>广播电视编导</item>
+        <item>数字媒体艺术与动画类</item>
+        <item>艺术设计类</item>
+    </string-array>
+    <string-array name="professional_5">
+        <item>请选择专业</item>
+        <item>广电与数字媒体类</item>
+        <item>通信信息类</item>
+    </string-array>
+    <string-array name="professional_6">
+        <item>请选择专业</item>
+        <item>计算机与智能科学类</item>
+    </string-array>
+    <string-array name="professional_7">
+        <item>请选择专业</item>
+        <item>软件工程</item>
+    </string-array>
+    <string-array name="professional_8">
+        <item>请选择专业</item>
+        <item>社会体育指导与管理</item>
+    </string-array>
+    <string-array name="professional_9">
+        <item>请选择专业</item>
+        <item>生物信息学</item>
+        <item>生物医学工程</item>
+    </string-array>
+    <string-array name="professional_10">
+        <item>请选择专业</item>
+        <item>数理科学与信息技术类</item>
+
+    </string-array>
+    <string-array name="professional_11">
+        <item>请选择专业</item>
+        <item>先进制造类</item>
+    </string-array>
+    <string-array name="professional_12">
+        <item>请选择专业</item>
+        <item>英语类（含英语、翻译两个专业）</item>
+    </string-array>
+    <string-array name="professional_13">
+        <item>请选择专业</item>
+        <item>自动化与电气工程类</item>
+    </string-array>
+
+</resources>
